@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { useRouter, usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
-import { ChevronDown, ChevronRight, Home, FileText, Search, Settings, User, BookOpen, Code, Zap, Database, Layers } from 'lucide-react'
+import { ChevronDown, ChevronRight, Home, FileText, BookOpen, Code, Layers } from 'lucide-react'
 
 interface NavItem {
   id: string
