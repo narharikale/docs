@@ -1,0 +1,134 @@
+{
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Create Documentation Pages",
+      "description": "Create the main documentation pages following Turborepo's documentation style",
+      "status": "completed",
+      "subtasks": [
+        {
+          "id": "subtask-1-1",
+          "title": "Create Core Concepts Page",
+          "description": "Create a page explaining the core concepts of the documentation portal",
+          "status": "completed"
+        },
+        {
+          "id": "subtask-1-2",
+          "title": "Create API Reference Page",
+          "description": "Create a page documenting the API and configuration options",
+          "status": "completed"
+        },
+        {
+          "id": "subtask-1-3",
+          "title": "Create Best Practices Page",
+          "description": "Create a page outlining best practices for using the documentation portal",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "task-2",
+      "title": "Implement Syntax Highlighting",
+      "description": "Add syntax highlighting for code blocks in the documentation",
+      "status": "completed",
+      "subtasks": [
+        {
+          "id": "subtask-2-1",
+          "title": "Install Syntax Highlighting Package",
+          "description": "Install and configure a syntax highlighting package (e.g., Prism.js)",
+          "status": "completed"
+        },
+        {
+          "id": "subtask-2-2",
+          "title": "Configure MDX Processing",
+          "description": "Update MDX processing to include syntax highlighting",
+          "status": "completed"
+        },
+        {
+          "id": "subtask-2-3",
+          "title": "Add Dark Mode Support",
+          "description": "Ensure syntax highlighting works well in both light and dark modes",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "task-3",
+      "title": "Implement Search Functionality",
+      "description": "Add search functionality to the documentation portal",
+      "status": "in_progress",
+      "subtasks": [
+        {
+          "id": "subtask-3-1",
+          "title": "Set Up Algolia",
+          "description": "Configure Algolia for documentation search",
+          "status": "not_started"
+        },
+        {
+          "id": "subtask-3-2",
+          "title": "Create Search UI",
+          "description": "Design and implement the search interface",
+          "status": "not_started"
+        },
+        {
+          "id": "subtask-3-3",
+          "title": "Implement Search Logic",
+          "description": "Add search functionality and result display",
+          "status": "not_started"
+        }
+      ]
+    },
+    {
+      "id": "task-4",
+      "title": "Add Navigation Features",
+      "description": "Implement navigation features for the documentation portal",
+      "status": "completed",
+      "subtasks": [
+        {
+          "id": "subtask-4-1",
+          "title": "Create Sidebar Navigation",
+          "description": "Implement a sidebar navigation component",
+          "status": "completed"
+        },
+        {
+          "id": "subtask-4-2",
+          "title": "Add Table of Contents",
+          "description": "Create a table of contents for each documentation page",
+          "status": "completed"
+        },
+        {
+          "id": "subtask-4-3",
+          "title": "Implement Breadcrumbs",
+          "description": "Add breadcrumb navigation for better user orientation",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "task-5",
+      "title": "Optimize Performance",
+      "description": "Optimize the documentation portal for better performance",
+      "status": "in_progress",
+      "subtasks": [
+        {
+          "id": "subtask-5-1",
+          "title": "Implement Code Splitting",
+          "description": "Add code splitting for better load times",
+          "status": "completed"
+        },
+        {
+          "id": "subtask-5-2",
+          "title": "Optimize Images",
+          "description": "Implement image optimization for documentation images",
+          "status": "not_started"
+        },
+        {
+          "id": "subtask-5-3",
+          "title": "Add Caching",
+          "description": "Implement caching strategies for better performance",
+          "status": "not_started"
+        }
+      ]
+    }
+  ]
+} 

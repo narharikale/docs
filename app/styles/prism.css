@@ -1,0 +1,58 @@
+/* PrismJS 1.29.0
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+typescript+jsx+tsx+json+bash */
+code[class*=language-],pre[class*=language-]{color:#ccc;background:0 0;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.autolink,.token.builtin,.token.link,.token.literal,.token.number,.token.quote,.token.regex,.token.string{color:#7ec699}.token.bold,.token.important{color:#f8f8f8;font-weight:700}.token.italic{font-style:italic}.token.attr-name,.token.inserted{color:#7ec699}.token.important,.token.regex,.token.url{color:#f8f8f8}.token.atrule,.token.attr-value,.token.keyword{color:#cc99cd}.token.class-name,.token.function{color:#f8c555}.token.selector{color:#e2777a}.token.boolean,.token.constant,.token.symbol{color:#f8c555}.token.property{color:#f8c555}.token.entity,.token.operator,.token.url,.token.variable{color:#67cdcc}.token.deleted{color:red}.token.italic{font-style:italic}.token.bold,.token.important{font-weight:700}.token.important{color:#f8f8f8}.token.entity{cursor:help}.token a{color:#9cdcfe}.token.parameter{color:#9cdcfe}.token.interpolation{color:#9cdcfe}.token.punctuation.interpolation-punctuation{color:#569cd6}.token.boolean{color:#569cd6}.token.property,.token.tag,.token.constant,.token.symbol,.token.deleted{color:#569cd6}.token.number{color:#b5cea8}.token.selector,.token.attr-name,.token.string,.token.char,.token.builtin,.token.inserted{color:#ce9178}.token.operator,.token.entity,.token.url,.token.variable{color:#d4d4d4}.token.atrule,.token.attr-value,.token.keyword{color:#ce9178}.token.function,.token.class-name{color:#dcdcaa}.token.regex,.token.important{color:#d16969}.token.important,.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}
+
+/* Line numbers */
+pre[class*=language-].line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}pre[class*=language-].line-numbers>code{position:relative;white-space:inherit}.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:0;font-size:100%;left:-3.8em;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.line-numbers-rows>span{display:block;counter-increment:linenumber}.line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}
+
+/* Dark mode adjustments */
+.dark .token.comment,
+.dark .token.prolog,
+.dark .token.doctype,
+.dark .token.cdata {
+  color: #6a9955;
+}
+
+.dark .token.punctuation {
+  color: #d4d4d4;
+}
+
+.dark .token.property,
+.dark .token.tag,
+.dark .token.boolean,
+.dark .token.number,
+.dark .token.constant,
+.dark .token.symbol {
+  color: #b5cea8;
+}
+
+.dark .token.selector,
+.dark .token.attr-name,
+.dark .token.string,
+.dark .token.char,
+.dark .token.builtin {
+  color: #ce9178;
+}
+
+.dark .token.operator,
+.dark .token.entity,
+.dark .token.url,
+.dark .token.variable {
+  color: #d4d4d4;
+}
+
+.dark .token.atrule,
+.dark .token.attr-value,
+.dark .token.keyword {
+  color: #569cd6;
+}
+
+.dark .token.function,
+.dark .token.class-name {
+  color: #dcdcaa;
+}
+
+.dark .token.regex,
+.dark .token.important {
+  color: #d16969;
+} 
